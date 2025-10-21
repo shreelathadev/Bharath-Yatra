@@ -1,52 +1,48 @@
-🌍 BharathYatra - Travel Website
-A responsive travel website for booking flights, trains, hotels, and holiday packages across India.
+# 🌍 BharathYatra - Travel Website
 
+A beautiful, responsive travel website for booking flights, trains, hotels, and holiday packages across India.
 
-📄 Pages
-Home - Landing page with featured destinations
+## 🚀 Live Demo
+[Visit Website](https://shreelathadev.github.io/Bharath-Yatra/)
 
-Explore - Discover travel destinations
+## 📄 Website Pages
+- **Home** - Landing page with featured destinations
+- **Explore** - Discover amazing travel destinations  
+- **Flights** - Book domestic & international flights
+- **Trains** - Railway ticket booking with live status
+- **Hotels** - Hotel reservations across India
+- **Packages** - Curated holiday packages by theme
+- **Pilgrimage** - Spiritual tours to sacred destinations
+- **Lakshadweep** - Special island paradise packages
 
-Flights - Book domestic & international flights
+## 💻 Built With
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with Flexbox/Grid
+- **JavaScript** - Included but currently inactive
+- **Bootstrap 5** - Responsive framework
 
-Trains - Railway ticket booking
+## 🛠️ Setup & Installation
+```bash
+# Clone the repository
+git clone https://github.com/shreelathadev/Bharath-Yatra.git
 
-Hotels - Hotel reservations
+# Navigate to project directory
+cd Bharath-Yatra
 
-Packages - Curated holiday packages
-
-Pilgrimage - Spiritual tours
-
-Lakshadweep - Island packages
-
-
-💻 Built With
-HTML5
-CSS3
-JavaScript
-Bootstrap 5
-
-
-🛠️ Setup
-
-Clone the repository
-Open index.html in your browser
-
-
-
-📁 Project Structure
+# Open in browser (no build process required)
+open index.html
+```
 
 BharathYatra/
-├── *.html              # All website pages
-
-├── Homeystyle.css      # Main stylesheet
-
-├── script.js           # JavaScript utilities
-
-├── images/            # All images and icons
-
-└── README.md
-
-
-🚀 Live Demo
-https://shreelathadev.github.io/Bharath-Yatra/
+├── index.html              # Homepage
+├── explorenew.html         # Explore destinations
+├── flights.html            # Flight bookings
+├── trains.html             # Train bookings
+├── hotels.html             # Hotel stays
+├── packages.html           # Holiday packages
+├── pilgrimage.html         # Pilgrimage tours
+├── lakshadweep.html        # Lakshadweep specials
+├── Homeystyle.css          # Main stylesheet
+├── script.js               # JavaScript utilities (inactive)
+├── images/                 # All website assets
+└── README.md               # Documentation

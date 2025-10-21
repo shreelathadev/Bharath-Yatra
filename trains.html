@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking - BharathYatra</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Homeystyle.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="logo">BHARATH YATRA</h1>
+        
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="explorenew.html" class="nav-link">EXPLORE</a></li>
+                <li class="nav-item"><a href="flights.html" class="nav-link">FLIGHTS</a></li>
+                <li class="nav-item"><a href="trains.html" class="nav-link active">TRAINS</a></li>
+                <li class="nav-item"><a href="hotels.html" class="nav-link">STAY</a></li>
+                <li class="nav-item"><a href="packages.html" class="nav-link">PACKAGES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main style="margin-top: 120px;">
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Trains</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Train Search Section -->
+        <section class="train-search py-5">
+            <div class="container">
+                <div class="search-header text-center mb-4">
+                    <h2 class="section-title">Book Train Tickets</h2>
+                    <p class="text-muted">Easy and convenient railway ticket booking</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="quick-links text-center mb-4">
+                    <a href="#" class="btn btn-quick">Search Trains</a>
+                    <a href="#" class="btn btn-quick">Train Live Status</a>
+                    <a href="#" class="btn btn-quick">Live Station</a>
+                </div>
+
+                <!-- Search Form -->
+                <div class="search-form-container">
+                    <form class="train-search-form">
+                        <div class="row g-3">
+                            <div class="col-md-6 col-lg-3">
+                                <label for="fromStation" class="form-label">From Station</label>
+                                <input type="text" id="fromStation" class="form-control" placeholder="Delhi - All Stations" list="stations">
+                                <datalist id="stations">
+                                    <option value="Delhi - All Stations">
+                                    <option value="NDLS - New Delhi">
+                                    <option value="SC - Secunderabad Jn">
+                                    <option value="HWH - Howrah Jn">
+                                    <option value="Bengaluru - All Stations">
+                                    <option value="SBC - Ksr Bengaluru">
+                                    <option value="Patna - All Stations">
+                                    <option value="PNBE - Patna Jn">
+                                </datalist>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-3">
+                                <label for="toStation" class="form-label">To Station</label>
+                                <input type="text" id="toStation" class="form-control" placeholder="Mumbai - All Stations" list="stations">
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-2">
+                                <label for="departureDate" class="form-label">Departure Date</label>
+                                <input type="date" id="departureDate" class="form-control">
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-2">
+                                <label for="returnDate" class="form-label">Return Date</label>
+                                <input type="date" id="returnDate" class="form-control">
+                            </div>
+                            
+                            <div class="col-md-12 col-lg-2">
+                                <label class="form-label">&nbsp;</label>
+                                <button type="submit" class="btn btn-search w-100">SEARCH TRAINS</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Routes Section -->
+        <section class="popular-routes py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="images/train1.jpg" alt="Indian Railways" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="section-title mb-4">Top Train Ticket Routes</h2>
+                        <div class="routes-list">
+                            <div class="route-item">
+                                <span class="route-name">NEW DELHI - JAMMU TAWI (NDLS-JAT)</span>
+                                <a href="#" class="btn btn-route">Search</a>
+                            </div>
+                            <div class="route-item">
+                                <span class="route-name">NEW DELHI - PATNA JN (NDLS-PNBE)</span>
+                                <a href="#" class="btn btn-route">Search</a>
+                            </div>
+                            <div class="route-item">
+                                <span class="route-name">HOWRAH JN - JAIPUR (HWH-JP)</span>
+                                <a href="#" class="btn btn-route">Search</a>
+                            </div>
+                            <div class="route-item">
+                                <span class="route-name">HYDERABAD DECAN - CHENNAI CENTRAL (HYB-MAS)</span>
+                                <a href="#" class="btn btn-route">Search</a>
+                            </div>
+                            <div class="route-item">
+                                <span class="route-name">MUMBAI CENTRAL - PUNE JN (BCT-PUNE)</span>
+                                <a href="#" class="btn btn-route">Search</a>
+                            </div>
+                            <div class="route-item">
+                                <span class="route-name">JAIPUR - AHMEDABAD JN (JP-ADI)</span>
+                                <a href="#" class="btn btn-route">Search</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Train Booking -->
+        <section class="train-about py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-4">Grab Best Deals on Train Tickets</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        The railway is the most affordable way to travel in India, and as a trustworthy travel brand, 
+                        We understand the value of your money and desire to travel. To make your train ticket booking more convenient, 
+                        we are pleased to become IRCTC Authorized partner.
+                    </p>
+                    <p class="about-text">
+                        Customer can book their train tickets in the most convenient way with our website. You just need to visit
+                        our website or download our mobile app to make your train ticket booking with us.
+                    </p>
+                    <p class="about-text">
+                        Travelling across the country has become easy due to online train ticket booking. You can visit almost every city by
+                        train at an affordable price. Train ticket booking provides several advantages such as low-cost travel, speed, convenience,
+                        and a picturesque journey.
+                    </p>
+                </div>
+
+                <!-- Documents Section -->
+                <div class="documents-section mt-5">
+                    <h3 class="section-subtitle">Documents to Carry</h3>
+                    <p class="about-text">
+                        When your railway ticket booking is confirmed with BharathYatra, you need to carry your government recognized ID on
+                        the departure date. Train ticket-checker may come any time and may ask you to show railway booking along with
+                        your ID. Here is the list of IDs that you can carry while boarding the train:
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="documents-list">
+                                <li>Aadhar Card</li>
+                                <li>Voter ID</li>
+                                <li>Pan Card</li>
+                                <li>Passport</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="documents-list">
+                                <li>Driving License</li>
+                                <li>Bank passbook with photograph</li>
+                                <li>Student ID card with photograph</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tatkal Booking Tips -->
+                <div class="tatkal-tips mt-5">
+                    <h3 class="section-subtitle">Best Strategies to Book Tatkal Train Tickets</h3>
+                    <p class="about-text">
+                        In India, it's very challenging to obtain Tatkal train tickets. Various factors,
+                        such as accelerating demand or advanced bookings, are the major reasons demonstrating why getting Tatkal train tickets is not everyone's cup of tea.
+                    </p>
+                    
+                    <div class="tips-grid">
+                        <div class="tip-card">
+                            <h4>Be Prepared in Advance</h4>
+                            <p>Prepare all the information related to names, age, and identity credentials in advance.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Rely on Better Network Connections</h4>
+                            <p>Have fast, efficient, and reliable internet connections to eliminate delays while booking.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Find the Best Payment Option</h4>
+                            <p>Stick to one payment method that ensures fast transactions without any delay.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Create a Back-Up Plan</h4>
+                            <p>Have a legitimate backup plan to get an alternate train of a distinct class.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Monitor Seat Availability</h4>
+                            <p>Keep checking for cancellations as you might get lucky with last-minute availability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Why Book Trains With Us</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="feature-card text-center">
+                            <div class="feature-icon">
+                                <img src="images/live_status_check.png" alt="Live Status" class="img-fluid">
+                            </div>
+                            <h4>Live Status Check</h4>
+                            <p>Get a complete list of trains that shall be arriving at the railway station of your choice at selected time.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card text-center">
+                            <div class="feature-icon">
+                                <img src="images/cancellations.png" alt="Instant Refunds" class="img-fluid">
+                            </div>
+                            <h4>Instant Refunds & Cancellations</h4>
+                            <p>Get an instant refund and book your next train ticket without any hassle.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card text-center">
+                            <div class="feature-icon">
+                                <img src="images/support.png" alt="Customer Support" class="img-fluid">
+                            </div>
+                            <h4>24/7 Customer Service</h4>
+                            <p>Round-the-clock support for all your train booking needs and queries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="footer-title">Follow us on:</h3>
+            <ul class="social-links">
+                <li class="social-item">
+                    <a href="#" aria-label="Facebook">
+                        <img src="images/facebook_logo.png" alt="Facebook" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="WhatsApp">
+                        <img src="images/whatsapp_logo.png" alt="WhatsApp" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="Twitter">
+                        <img src="images\tO0yLHtN4BO4.jpg" alt="Twitter" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="Instagram">
+                        <img src="images/instagram_logo.png" alt="Instagram" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2023 BharathYatra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

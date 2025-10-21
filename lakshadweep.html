@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshadweep Tours - BharathYatra</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Homeystyle.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="logo">BHARATH YATRA</h1>
+        
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="explorenew.html" class="nav-link">EXPLORE</a></li>
+                <li class="nav-item"><a href="flights.html" class="nav-link">FLIGHTS</a></li>
+                <li class="nav-item"><a href="trains.html" class="nav-link">TRAINS</a></li>
+                <li class="nav-item"><a href="hotels.html" class="nav-link">STAY</a></li>
+                <li class="nav-item"><a href="packages.html" class="nav-link">PACKAGES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main style="margin-top: 120px;">
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="explorenew.html">Explore</a></li>
+                    <li class="breadcrumb-item active">Lakshadweep</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Lakshadweep Hero Section -->
+        <section class="lakshadweep-hero py-5">
+            <div class="container">
+                <div class="hero-content text-center text-white">
+                    <h2 class="hero-title">Lakshadweep Holiday Packages</h2>
+                    <p class="hero-subtitle">Discover the pristine paradise of coral islands</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="lakshadweep-search py-5">
+            <div class="container">
+                <div class="search-form-container">
+                    <form class="lakshadweep-search-form">
+                        <div class="row g-3 align-items-end">
+                            <div class="col-md-4">
+                                <label for="fromCity" class="form-label">From City</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <img src="images/loco.jpg" alt="Location" style="height: 16px; width: 16px;">
+                                    </span>
+                                    <input type="text" id="fromCity" class="form-control" placeholder="Select your city" list="cities">
+                                    <datalist id="cities">
+                                        <option value="New Delhi">
+                                        <option value="Bangalore">
+                                        <option value="Pune">
+                                        <option value="Mumbai">
+                                        <option value="Hyderabad">
+                                        <option value="Jaipur">
+                                        <option value="Kolkata">
+                                        <option value="Chennai">
+                                    </datalist>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3">
+                                <label class="form-label">Package Type</label>
+                                <div class="package-type-radio">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="packageType" id="withFlights" checked>
+                                        <label class="form-check-label" for="withFlights">With Flights</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="packageType" id="withoutFlights">
+                                        <label class="form-check-label" for="withoutFlights">Without Flights</label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3">
+                                <label for="duration" class="form-label">Duration (3 to 8 days)</label>
+                                <input type="number" id="duration" class="form-control" placeholder="0" min="3" max="8">
+                            </div>
+                            
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-search w-100">SEARCH</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Lakshadweep -->
+        <section class="lakshadweep-about py-5">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="section-title">Lakshadweep Tour Packages</h2>
+                    <p class="about-text">
+                        Welcome to Lakshadweep, a hidden wonder of incredible India that's known for its pristine 
+                        white sandy beaches, vibrant coral reefs, and crystal-clear turquoise water. It's indeed the paradisical 
+                        archipelago embodying tranquility, beauty, and exhilaration at the same point.
+                    </p>
+                    <p class="about-text">
+                        If you're seeking relaxation or a closer connection with nature, the sublime Lakshadweep is the best destination 
+                        to witness the wonders of both worlds. So, if you're planning to delve deeper into the cool oceans of the city, 
+                        then be ready to book your dream journey with BharathYatra's exclusive Lakshadweep tour packages. Travel around 
+                        the destination with us now and cherish the memories created together forever.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Package Cards -->
+        <section class="lakshadweep-packages py-5 bg-light">
+            <div class="container">
+                <div class="packages-grid">
+                    <div class="row g-4">
+                        <!-- Package 1 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div class="package-card">
+                                <div class="package-image">
+                                    <img src="images/Agatti-Island.jpg" alt="Agatti Island" class="img-fluid">
+                                </div>
+                                <div class="package-content">
+                                    <h4>Explore Lakshadweep</h4>
+                                    <p class="package-duration">1N Cochin / 2N Agatti</p>
+                                    <div class="package-features">
+                                        <span class="feature">Hotel</span>
+                                        <span class="feature">Meals</span>
+                                        <span class="feature">Transport</span>
+                                        <span class="feature">Sightseeing</span>
+                                    </div>
+                                    <div class="package-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price">₹22,999</span>
+                                        <span class="per-person">per person</span>
+                                    </div>
+                                    <div class="emi-info">
+                                        <small>Easy No Cost EMI starts from ₹4,950</small>
+                                    </div>
+                                    <button class="btn btn-package">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Package 2 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div class="package-card">
+                                <div class="package-image">
+                                    <img src="images/kavaratti.jpg" alt="Kavaratti Island" class="img-fluid">
+                                </div>
+                                <div class="package-content">
+                                    <h4>Beauty of Coral Reef</h4>
+                                    <p class="package-duration">1N Cochin / 2N Kavaratti / 2N Bangaram</p>
+                                    <div class="package-features">
+                                        <span class="feature">Hotel</span>
+                                        <span class="feature">Meals</span>
+                                        <span class="feature">Transport</span>
+                                        <span class="feature">Sightseeing</span>
+                                    </div>
+                                    <div class="package-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price">₹50,399</span>
+                                        <span class="per-person">per person</span>
+                                    </div>
+                                    <div class="emi-info">
+                                        <small>Easy No Cost EMI starts from ₹9,231</small>
+                                    </div>
+                                    <button class="btn btn-package">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Package 3 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div class="package-card">
+                                <div class="package-image">
+                                    <img src="images/bangaram.jpg" alt="Bangaram Island" class="img-fluid">
+                                </div>
+                                <div class="package-content">
+                                    <h4>Treasure of Bangaram</h4>
+                                    <p class="package-duration">1N Cochin / 2N Kavaratti / 2N Bangaram</p>
+                                    <div class="package-features">
+                                        <span class="feature">Hotel</span>
+                                        <span class="feature">Meals</span>
+                                        <span class="feature">Transport</span>
+                                        <span class="feature">Sightseeing</span>
+                                    </div>
+                                    <div class="package-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price">₹39,977</span>
+                                        <span class="per-person">per person</span>
+                                    </div>
+                                    <div class="emi-info">
+                                        <small>Easy No Cost EMI starts from ₹7,302</small>
+                                    </div>
+                                    <button class="btn btn-package">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Package 4 -->
+                        <div class="col-md-6 col-lg-3">
+                            <div class="package-card featured">
+                                <div class="package-badge">New</div>
+                                <div class="package-image">
+                                    <img src="images/Cordelia.jpg" alt="Cordelia Cruise" class="img-fluid">
+                                </div>
+                                <div class="package-content">
+                                    <h4>Lakshadweep by Cordelia Cruise</h4>
+                                    <p class="package-duration">Cruise Package</p>
+                                    <div class="package-features">
+                                        <span class="feature">Hotel</span>
+                                        <span class="feature">Meals</span>
+                                        <span class="feature">Transport</span>
+                                        <span class="feature">Sightseeing</span>
+                                    </div>
+                                    <div class="package-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price">₹49,599</span>
+                                        <span class="per-person">per person</span>
+                                    </div>
+                                    <div class="emi-info">
+                                        <small>Easy No Cost EMI starts from ₹9,002</small>
+                                    </div>
+                                    <button class="btn btn-package">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section py-5">
+            <div class="container">
+                <h3 class="section-title text-center mb-5">All You Need to Know About Lakshadweep</h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="video-container">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ywFN3v8lEu8?si=9bgbsrv2o94etCdZ" 
+                                    title="Lakshadweep Tourism" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="video-container">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/B0uBYYz8qtg?si=26rJd5hD6pJTODPc&amp;start=74" 
+                                    title="Lakshadweep Travel Guide" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="footer-title">Follow us on:</h3>
+            <ul class="social-links">
+                <li class="social-item">
+                    <a href="#" aria-label="Facebook">
+                        <img src="images/facebook_logo.png" alt="Facebook" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="WhatsApp">
+                        <img src="images/whatsapp_logo.png" alt="WhatsApp" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="Twitter">
+                        <img src="images\tO0yLHtN4BO4.jpg" alt="Twitter" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="Instagram">
+                        <img src="images/instagram_logo.png" alt="Instagram" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2023 BharathYatra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

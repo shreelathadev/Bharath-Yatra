@@ -1,0 +1,23 @@
+BharathYatra/
+├── index.html
+├── explorenew.html
+├── flights.html
+├── trains.html
+├── hotels.html
+├── packages.html
+├── Homeystyle.css
+├── scripts.js (if you have any JS files)
+├── images/
+│   ├── discover1.jpg
+│   ├── train1.jpg
+│   ├── hotel.jpg
+│   ├── travel.jpg
+│   ├── plane.png
+│   ├── rupee.png
+│   ├── support.png
+│   ├── deals.png
+│   ├── facebook_1051309.png
+│   ├── whatsapp_254409.png
+│   ├── twitter_5968830.png
+│   └── instaaa1111 (1).png
+└── README.md

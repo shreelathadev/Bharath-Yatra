@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking - BharathYatra</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Homeystyle.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="logo">BHARATH YATRA</h1>
+        
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="explorenew.html" class="nav-link">EXPLORE</a></li>
+                <li class="nav-item"><a href="flights.html" class="nav-link">FLIGHTS</a></li>
+                <li class="nav-item"><a href="trains.html" class="nav-link">TRAINS</a></li>
+                <li class="nav-item"><a href="hotels.html" class="nav-link active">STAY</a></li>
+                <li class="nav-item"><a href="packages.html" class="nav-link">PACKAGES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main style="margin-top: 120px;">
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Hotels</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Hotel Search Section -->
+        <section class="hotel-search py-5">
+            <div class="container">
+                <div class="search-header text-center mb-4">
+                    <h2 class="section-title">Find Your Perfect Stay</h2>
+                    <p class="text-muted">Book hotels at the best prices across India</p>
+                </div>
+
+                <!-- Search Form -->
+                <div class="search-form-container">
+                    <form class="hotel-search-form">
+                        <div class="row g-3">
+                            <div class="col-md-12 col-lg-4">
+                                <label for="hotelLocation" class="form-label">Enter City, Location or Specific Hotel</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <img src="images/stay.jpg" alt="Location" style="height: 20px; width: 20px;">
+                                    </span>
+                                    <input type="text" id="hotelLocation" class="form-control" placeholder="Bangalore" list="cities">
+                                    <datalist id="cities">
+                                        <option value="New Delhi">
+                                        <option value="Pune">
+                                        <option value="Jaipur">
+                                        <option value="Mumbai">
+                                        <option value="Bengaluru">
+                                        <option value="Ahmedabad">
+                                        <option value="Hyderabad">
+                                        <option value="Agra">
+                                        <option value="Goa">
+                                        <option value="Kolkata">
+                                        <option value="Chennai">
+                                    </datalist>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-2">
+                                <label for="checkInDate" class="form-label">Check-In</label>
+                                <input type="date" id="checkInDate" class="form-control">
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-2">
+                                <label for="checkOutDate" class="form-label">Check-Out</label>
+                                <input type="date" id="checkOutDate" class="form-control">
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-2">
+                                <label for="rooms" class="form-label">Rooms</label>
+                                <input type="number" id="rooms" class="form-control" placeholder="1" min="1" max="10">
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-2">
+                                <label for="guests" class="form-label">Guests</label>
+                                <input type="number" id="guests" class="form-control" placeholder="2" min="1" max="20">
+                            </div>
+                            
+                            <div class="col-md-12 col-lg-2">
+                                <label class="form-label">&nbsp;</label>
+                                <button type="submit" class="btn btn-search w-100">SEARCH HOTELS</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hotel Deals Banner -->
+        <section class="hotel-deals-banner py-5">
+            <div class="container">
+                <div class="deals-content text-center text-white">
+                    <h2 class="banner-title">Cheapest Deals on Budget & Luxury Hotels</h2>
+                    <p class="banner-text">
+                        Due to the huge influx of tourists in India, BharathYatra offers a wide range of luxury, deluxe and
+                        budget hotels to them. Choose to stay in luxury and comfort with the greatest discounts available on hotel bookings.
+                    </p>
+                    <p class="banner-text">
+                        We list the classiest budget hotels on our site along with some of the prominent international hotel chains of India
+                        including Oberoi Group, ITC Group, Taj Group, Le Meridian Group and many others.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Destinations -->
+        <section class="popular-destinations py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Book Hotels at Popular Destinations</h2>
+                
+                <div class="destinations-grid">
+                    <div class="row g-4">
+                        <!-- Delhi -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="destination-card">
+                                <div class="destination-image">
+                                    <img src="images/dehli_hotels.jpg" alt="Delhi Hotels" class="img-fluid">
+                                    <div class="price-badge">From ₹298</div>
+                                </div>
+                                <div class="destination-content">
+                                    <h4>Delhi</h4>
+                                    <p>Capital city with rich heritage and modern amenities</p>
+                                    <a href="#" class="btn btn-destination">
+                                        Explore Hotels
+                                        <img src="images/arrow.jpg" alt="Arrow" class="ms-2" style="height: 16px; width: 16px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Bengaluru -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="destination-card">
+                                <div class="destination-image">
+                                    <img src="images/benglr_hotels.jpg" alt="Bengaluru Hotels" class="img-fluid">
+                                    <div class="price-badge">From ₹499</div>
+                                </div>
+                                <div class="destination-content">
+                                    <h4>Bengaluru</h4>
+                                    <p>Garden city with tech parks and pleasant weather</p>
+                                    <a href="#" class="btn btn-destination">
+                                        Explore Hotels
+                                        <img src="images/arrow.jpg" alt="Arrow" class="ms-2" style="height: 16px; width: 16px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Goa -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="destination-card">
+                                <div class="destination-image">
+                                    <img src="images/goaaa.jpg" alt="Goa Hotels" class="img-fluid">
+                                    <div class="price-badge">From ₹508</div>
+                                </div>
+                                <div class="destination-content">
+                                    <h4>Goa</h4>
+                                    <p>Beach paradise with sun, sand, and sea</p>
+                                    <a href="#" class="btn btn-destination">
+                                        Explore Hotels
+                                        <img src="images/arrow.jpg" alt="Arrow" class="ms-2" style="height: 16px; width: 16px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Mumbai -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="destination-card">
+                                <div class="destination-image">
+                                    <img src="images/mumb.jpg" alt="Mumbai Hotels" class="img-fluid">
+                                    <div class="price-badge">From ₹451</div>
+                                </div>
+                                <div class="destination-content">
+                                    <h4>Mumbai</h4>
+                                    <p>City of dreams with bustling energy</p>
+                                    <a href="#" class="btn btn-destination">
+                                        Explore Hotels
+                                        <img src="images/arrow.jpg" alt="Arrow" class="ms-2" style="height: 16px; width: 16px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Kolkata -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="destination-card">
+                                <div class="destination-image">
+                                    <img src="images/kolkota_hotels.jpg" alt="Kolkata Hotels" class="img-fluid">
+                                    <div class="price-badge">From ₹502</div>
+                                </div>
+                                <div class="destination-content">
+                                    <h4>Kolkata</h4>
+                                    <p>City of joy with rich culture and heritage</p>
+                                    <a href="#" class="btn btn-destination">
+                                        Explore Hotels
+                                        <img src="images/arrow.jpg" alt="Arrow" class="ms-2" style="height: 16px; width: 16px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Hyderabad -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="destination-card">
+                                <div class="destination-image">
+                                    <img src="images/hyd_hotels.jpg" alt="Hyderabad Hotels" class="img-fluid">
+                                    <div class="price-badge">From ₹399</div>
+                                </div>
+                                <div class="destination-content">
+                                    <h4>Hyderabad</h4>
+                                    <p>City of pearls with delicious cuisine</p>
+                                    <a href="#" class="btn btn-destination">
+                                        Explore Hotels
+                                        <img src="images/arrow.jpg" alt="Arrow" class="ms-2" style="height: 16px; width: 16px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hotel Types Section -->
+        <section class="hotel-types py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Types of Hotels Available</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="type-card text-center">
+                            <div class="type-icon">
+                                <img src="images/lux.jpeg" alt="Luxury Hotels" class="img-fluid">
+                            </div>
+                            <h4>Luxury Hotels</h4>
+                            <p>5-star properties with premium amenities and services for a luxurious stay experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="type-card text-center">
+                            <div class="type-icon">
+                                <img src="images/kolkota_hotels.jpg" alt="Budget Hotels" class="img-fluid">
+                            </div>
+                            <h4>Budget Hotels</h4>
+                            <p>Affordable accommodations with essential amenities for comfortable stays.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="type-card text-center">
+                            <div class="type-icon">
+                                <img src="images/heritage_tours.jpg" alt="Heritage Hotels" class="img-fluid">
+                            </div>
+                            <h4>Heritage Hotels</h4>
+                            <p>Historic properties offering royal experiences and cultural immersion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Book With Us -->
+        <section class="why-book py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Why Book Hotels With BharathYatra</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="benefit-item">
+                            <h5>Best Price Guarantee</h5>
+                            <p>We guarantee the lowest prices on all hotel bookings. Find a lower price? We'll match it!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-item">
+                            <h5>Wide Selection</h5>
+                            <p>Choose from 50,000+ hotels across India, from budget to luxury categories.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-item">
+                            <h5>Easy Cancellation</h5>
+                            <p>Flexible cancellation policies with instant refunds to your account.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-item">
+                            <h5>24/7 Support</h5>
+                            <p>Round-the-clock customer support for all your hotel booking needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+   <footer class="footer">
+        <div class="footer-content">
+            <h3 class="footer-title">Follow us on:</h3>
+            <ul class="social-links">
+                <li class="social-item">
+                    <a href="#" aria-label="Facebook">
+                        <img src="images/facebook_logo.png" alt="Facebook" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="WhatsApp">
+                        <img src="images/whatsapp_logo.png" alt="WhatsApp" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="Twitter">
+                        <img src="images\tO0yLHtN4BO4.jpg" alt="Twitter" class="social-icon">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" aria-label="Instagram">
+                        <img src="images/instagram_logo.png" alt="Instagram" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2023 BharathYatra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

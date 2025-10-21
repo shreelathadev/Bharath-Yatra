@@ -38,9 +38,13 @@ Open index.html in your browser
 
 BharathYatra/
 ├── *.html              # All website pages
+
 ├── Homeystyle.css      # Main stylesheet
+
 ├── script.js           # JavaScript utilities
+
 ├── images/            # All images and icons
+
 └── README.md
 
 

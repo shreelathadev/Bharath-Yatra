@@ -35,14 +35,25 @@ open index.html
 
 BharathYatra/
 ├── index.html              # Homepage
+
 ├── explorenew.html         # Explore destinations
+
 ├── flights.html            # Flight bookings
+
 ├── trains.html             # Train bookings
+
 ├── hotels.html             # Hotel stays
+
 ├── packages.html           # Holiday packages
+
 ├── pilgrimage.html         # Pilgrimage tours
+
 ├── lakshadweep.html        # Lakshadweep specials
+
 ├── Homeystyle.css          # Main stylesheet
+
 ├── script.js               # JavaScript utilities (inactive)
+
 ├── images/                 # All website assets
+
 └── README.md               # Documentation

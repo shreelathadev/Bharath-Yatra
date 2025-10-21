@@ -4,12 +4,19 @@ A responsive travel website for booking flights, trains, hotels, and holiday pac
 
 📄 Pages
 Home - Landing page with featured destinations
+
 Explore - Discover travel destinations
+
 Flights - Book domestic & international flights
+
 Trains - Railway ticket booking
+
 Hotels - Hotel reservations
+
 Packages - Curated holiday packages
+
 Pilgrimage - Spiritual tours
+
 Lakshadweep - Island packages
 
 
@@ -38,4 +45,4 @@ BharathYatra/
 
 
 🚀 Live Demo
-[Add your GitHub Pages link here]
+https://shreelathadev.github.io/Bharath-Yatra/
